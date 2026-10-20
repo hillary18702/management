@@ -19,7 +19,7 @@ users = {
 
 # Login function
 def login(users):
-    username = input("Enter your username: ").strip().lower()
+    username = input("Enter your username: ").lower()
     password = input("Enter your password: ")
 
     token = None
